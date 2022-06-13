@@ -3,7 +3,7 @@
     <div>useless page
       <ul>
         <li>
-          <a href="../../useless-page/kill-myself/index.html">useless</a>
+          <a href="../useless-page/kill-myself/index.html">useless</a>
         </li>
       </ul>
     </div>

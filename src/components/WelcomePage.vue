@@ -3,7 +3,7 @@
     <div>useless page
       <ul>
         <li>
-          <a href="/wherr/useless-page/your-name/index.html">useless</a>
+          <a href="/wherr/project/useless-page/your-name/index.html">useless</a>
         </li>
       </ul>
     </div>

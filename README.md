@@ -1,24 +1,16 @@
 # wherr-page
 
-## Project setup
-```
-npm install
-```
+###  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
+~~~
 npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+git config --global http.sslVerify "false"
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+git checkout -b gh-pages
+git add -f dist
+git commit -m 'first commit'
+git subtree push --prefix dist origin gh-pages
+
+~~~
+

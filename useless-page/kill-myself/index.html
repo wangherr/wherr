@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kill myself</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        #mainContainer {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #contextBox {
+            margin: 1%;
+            padding: 1%;
+            border: black solid 1px;
+            height: 50%;
+            width: 50%;
+
+            font-size: xxx-large;
+        }
+
+    </style>
+
+    <script>
+        function clearAll() {
+            let main_container = document.getElementById("mainContainer")
+            main_container.style.display = "None"
+        }
+    </script>
+
+</head>
+<body>
+    <div id="mainContainer">
+        <label for="contextBox">useless words</label>
+        <input value="You Come Ah" id="contextBox">
+
+        <button class="clear-button" type="button" value="false" onclick="clearAll()">clear all</button>
+    </div>
+</body>
+</html>

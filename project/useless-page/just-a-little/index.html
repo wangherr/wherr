@@ -61,7 +61,7 @@
 <div id="counter">
     <div class="mainContainer">
         <label for="contextBox">Name: </label>
-        <input id="contextBox" v-model="nameContext" :class="{comeA: isCome, comeB: !isCome}">
+        <input id="contextBox" v-model="nameContext" :class="{comeA: isComeA, comeB: isComeB}">
 
         <button @click="delContext(); resetCome()">Delete</button>
     </div>
@@ -72,14 +72,16 @@
         data() {
             return {
                 nameContext: "Jia Gui",
-                isCome: false
+                isComeA: false,
+                isComeB: false
             }
         },
 
         methods: {
             delContext() {
                 this.nameContext = this.nameContext.slice(0, this.nameContext.length - 1)
-                this.isCome = !this.isCome
+                this.isComeA = !this.isComeA
+                this.isComeB = !this.isComeA
             },
         }
     }
